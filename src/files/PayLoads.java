@@ -2,12 +2,12 @@ package files;
 
 public class PayLoads {
 
-	public static String AddPlace()
+	public static String AddBook(String isbn, String aisle)
 	{
 		return "{\r\n" + 
-				"\"name\":\"Zafraan's New Book\",\r\n" + 
-				"\"isbn\":\"Z9\",\r\n" + 
-				"\"aisle\":\"123\",\r\n" + 
+				"\"name\":\"Ragu's New Books\",\r\n" + 
+				"\"isbn\":\""+isbn+"\",\r\n" + 
+				"\"aisle\":\""+aisle+"\",\r\n" + 
 				"\"author\":\"Matt McEvoy\"\r\n" + 
 				"}";
 	}
